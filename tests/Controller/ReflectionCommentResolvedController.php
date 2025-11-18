@@ -2,11 +2,11 @@
 
 namespace Tests\Controller;
 
+use Illuminate\Http\Request;
 use Illuminate\Support\Collection;
 use Tengliyun\Helper\Concerns\ReflectionCommentResolved;
 use Tengliyun\Helper\Concerns\ResolvesContextName;
 use Tengliyun\Helper\Contracts\ReflectionCommentWhenResolved;
-use Illuminate\Http\Request;
 
 /**
  * @module      moduleResolved
