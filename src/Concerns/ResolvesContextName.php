@@ -30,7 +30,7 @@ trait ResolvesContextName
      *
      * @return string|null
      */
-    public static function getResolvesContextNameName(string $delimiter = '.'): ?string
+    public static function getResolvesContextName(string $delimiter = '.'): ?string
     {
         if (app()->runningInConsole()) {
             return null;
